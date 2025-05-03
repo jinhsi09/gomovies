@@ -79,6 +79,15 @@ const API_KEY = 'f6ccaa5508f40f8d0092d940062ed522';
       document.getElementById('search-input').focus();
     }
 
+function openDisclaimerModal() {
+  document.getElementById('disclaimer-modal').style.display = 'flex';
+}
+
+function closeDisclaimerModal() {
+  document.getElementById('disclaimer-modal').style.display = 'none';
+}
+
+
     function closeSearchModal() {
       document.getElementById('search-modal').style.display = 'none';
       document.getElementById('search-results').innerHTML = '';
